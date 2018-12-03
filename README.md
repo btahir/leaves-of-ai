@@ -8,4 +8,6 @@ All the processing steps are in the jupyter notebook. The other fiels are used t
 
 The app can be seen live here: https://leaves-of-ai.now.sh/
 
+![alt text](https://github.com/btahir/leaves-of-ai/edit/master/app-snap.jpg)
+
 Inference takes a few minutes and the text generation is still prone to errors depending on which oot word you use to generate the text.
