@@ -1,0 +1,37 @@
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <link rel='stylesheet' href='../static/style.css'>
+        <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+        <script src='../static/client.js'></script>
+    </head>
+    <body>
+        <div>
+            <div class='center'>
+                <div class='title'>leaves of ai</div>
+                <div class='description'>Get your daily Walt Whitman poetry using Artifical Intelligence</div>
+                <div class='content'>
+                    <div class="row">
+                        <p class="img-on-left">
+                            <img src = "static/scroll.png" height="220" width="250" alt = "pin_image" />
+                        </p>
+                        <span class="input">
+                            <input id="text-input" onchange='showText(this)' type="text" placeholder="Type the first few words of the poem" maxlength="20">
+                            <span></span>   
+                        </span>                        
+                        <p class="img-on-right">
+                            <img src = "static/scroll.png" height="220" width="250" alt = "pin_image" />
+                        </p>                                          
+                    </div>
+                    <div class='analyze'>
+                        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Generate Poem</button>
+                    </div>
+                    <div class='result-label'>
+                        <label id='result-label'></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
