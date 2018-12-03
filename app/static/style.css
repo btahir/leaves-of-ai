@@ -1,0 +1,93 @@
+body {
+    height: 100%;
+    background-color: #8BADC3;
+}
+
+input {
+    width: 30%;
+    height: 4%;
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 80px;
+    border: 0;
+    background-color: #ffffff;
+}
+
+.no-display {
+    display: none;
+}
+
+.img-on-left {
+  float: left;
+  width: 33%;
+}
+
+.img-on-right {
+  float: right;
+  width: 33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+    padding-left:50px;
+    padding-right:50px;
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+    margin-top: 1em;
+    margin-bottom: 0em;
+    font-family: 'Paytone One', sans-serif;
+    color: #ffffff;
+}
+
+.description {
+    font-size: 26px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Satisfy', cursive;
+    color: #494C4E;
+}
+
+.content {
+    margin-top: 1em;
+}
+
+.analyze {
+    margin-top: 0.5em;
+}
+
+.result-label {
+    margin: auto;
+    margin-top: 1em;
+    padding: 20px;
+    font-size: 32px;
+    font-family: 'Satisfy', sans-serif;
+    color: #ffffff;
+    word-wrap: break-word;
+    width: 40%;
+    text-align: left;
+    }
+
+
+button.analyze-button {
+    width: 320px;
+    height: 60px;
+    border: solid 1px #494C4E;
+    border-radius: 32px;
+    background-color: #494C4E;
+    font-size: 24px;
+    font-family: 'Paytone One', sans-serif;
+    color: #ffffff;
+    cursor:pointer;
+}
+
+button:focus {outline:0;}
