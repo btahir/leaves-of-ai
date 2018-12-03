@@ -1,6 +1,10 @@
-# leaves-of-ai
+# Leaves of AI
 
 Generate Walt Whitman Poetry Using Deep Learning.
+
+Project inspired by the NaNoGenMo series: https://github.com/NaNoGenMo/2018
+
+The generated novel is attached in the whitman_novel.md file.
 
 This project was built using the fastai library (which is in turn built on Pytorch). We used an AWD-LSTM based char-RNN network to generate our text.
 
